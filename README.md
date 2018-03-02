@@ -10,5 +10,5 @@ En este repo se encuentran las prácticas del diplomadO de iOS.
 * Algoritmos de swift
 
 
-### Tareas (2 de marzo de 2018)
+### Tareas (9 de marzo de 2018)
 * Ejercicio 3 Libro
