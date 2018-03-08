@@ -2,8 +2,8 @@
 //  QuizUITests.swift
 //  QuizUITests
 //
-//  Created by Adrian Rojas Zarza on 17/02/18.
-//  Copyright © 2018 Adrian Rojas Zarza. All rights reserved.
+//  Created by Zarza on 17/02/18.
+//  Copyright © 2018 Zarza. All rights reserved.
 //
 
 import XCTest
