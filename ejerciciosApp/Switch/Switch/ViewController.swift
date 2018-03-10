@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fieldText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +31,11 @@ class ViewController: UIViewController {
         //segue.destination.navigationItem.title = textField.text
     }
 
+    
+    @IBAction func buttonAction(_ sender: UIButton) {
+        self.fieldText.resignFirstResponder();
+    }
+    
     
 }
 
