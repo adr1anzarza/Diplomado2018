@@ -1,4 +1,5 @@
-//: Playground - noun: a place where people can play
+//: # Enumeraciones
+//: #### Definición de un tipo de dato acotado previamente definido
 
 import UIKit
 
