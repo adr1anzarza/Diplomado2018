@@ -1,4 +1,4 @@
-# ENUMERACIONES
+# ENUMERACIONES:m Introducción
 
 ```swift
 
@@ -38,6 +38,20 @@ case .Viernes:
 ```
 
 **Nota: no necesita default por que pierde flexibilidad pero deja complejidad**
+
+
+# Enumeraciones: 
+
+Gets the number at the enumeration
+
+```swift
+enum EstadoDocumento: Int{
+    case Recibido = 0, Validado, EnProceso, Publicado
+}
+
+let valorEstado = EstadoDocumento.Validado.rawValue
+let estado = EstadoDocumento(rawValue: 2)
+```
 
 
 
