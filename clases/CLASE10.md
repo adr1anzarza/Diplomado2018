@@ -58,7 +58,7 @@ let estado = EstadoDocumento(rawValue: 2)
 # Estructuras
 #### Copy on write
 Es una optimización que hace Swift para copiar elementos enteros y pasarlos por valor, de otra forma resulta complejo el tiempo de copiado pues no nada mas se copia la estructura, se copian los apuntadores.
-**Una estructura siempre se pasa por valor, nunca por referencia, no se puede**
+**Una estructura siempre se pasa por valor, nunca por referencia, no se puede.**
 
 ```swift
 struct Cuerpo{
