@@ -1,4 +1,4 @@
-# ENUMERACIONES:m Introducción
+# ENUMERACIONES: Introducción
 
 ```swift
 
@@ -34,6 +34,8 @@ case .Jueves:
     print("Jueves")
 case .Viernes:
     print("Viernes")
+case .Sábado:
+    print("Sabadrink")
 }
 ```
 
@@ -52,6 +54,40 @@ enum EstadoDocumento: Int{
 let valorEstado = EstadoDocumento.Validado.rawValue
 let estado = EstadoDocumento(rawValue: 2)
 ```
+
+# Estructuras
+#### Copy on write
+Es una optimización que hace Swift para copiar elementos enteros y pasarlos por valor, de otra forma resulta complejo el tiempo de copiado pues no nada mas se copia la estructura, se copian los apuntadores.
+**Una estructura siempre se pasa por valor, nunca por referencia, no se puede**
+
+```swift
+struct Cuerpo{
+    var altura: Double = 1.85
+    var peso: Double = 80
+}
+
+var cuerpo = Cuerpo()
+cuerpo.altura = 1.85
+cuerpo.peso = 80.0
+
+var cuerpo2 = cuerpo
+
+cuerpo.altura = 2.0
+cuerpo2
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
