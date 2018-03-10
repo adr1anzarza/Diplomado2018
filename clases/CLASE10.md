@@ -77,8 +77,68 @@ cuerpo2
 ```
 
 
+# CLASES
 
 
+```swift
+
+class Alumno{
+    var nombre: String
+    fileprivate pvar edad: Int
+    
+    init(nombre: String, edad: Int){
+        self.nombre = nombre
+        self.edad = edad
+    }
+    
+    func sayHello(){
+        print("Hi! This is \(self.nombre)")
+    }
+    
+}
+
+
+class Inge: Alumno{
+    override func sayHello() {
+        print("Hi, this is \(self.nombre) n come from Inge")
+    }
+}
+
+class Conta: Alumno{
+    override func sayHello() {
+        print("Hi, this is \(self.nombre) n come from Conta")
+    }
+}
+
+var zarza = Alumno(nombre: "Adrix", edad: 22)   
+
+
+
+
+
+
+∫
+```
+
+
+
+### Observadores
+
+Property Observers
+
+Property observers observe and respond to changes in a property’s value. Property observers are called every time a property’s value is set, even if the new value is the same as the property’s current value.
+
+You can add property observers to any stored properties you define, except for lazy stored properties. You can also add property observers to any inherited property (whether stored or computed) by overriding the property within a subclass. You don’t need to define property observers for nonoverridden computed properties, because you can observe and respond to changes to their value in the computed property’s setter. Property overriding is described in Overriding.
+
+
+# Summary
+
+* Clases
+* Herencia
+* Polimorfismo
+* willSet didSet
+
+[Referencias](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html)
 
 
 
