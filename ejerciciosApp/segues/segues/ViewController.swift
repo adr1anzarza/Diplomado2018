@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Switch
+//  segues
 //
 //  Created by Adrian Rojas Zarza on 09/03/18.
 //  Copyright © 2018 Adrian Rojas Zarza. All rights reserved.
@@ -19,17 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func unwind(unwindSegue: UIStoryboardSegue) {
-        
-        
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue,
-                          sender: Any?) {
-        //segue.destination.navigationItem.title = textField.text
-    }
 
-    
+
 }
 
