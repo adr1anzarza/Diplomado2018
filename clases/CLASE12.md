@@ -17,5 +17,14 @@ Tenemos un programa que puede ser dividido en 8 tareas separadas. Tenemos una m√
 Pues depende del estado actual del sistema.
 ```
 
+## GCD
 
+* 512k por thread vs 256 bytes que usa grand central dispatch.
+* Normal queues (multiples threads).
+* Dispatch es FIFO.
+* Serial queues (un solo thread).
+* Dispatch & terminaci√≥n es FIFO.
+* Encadenamiento.
+
+**Todo el paralelismo es concurrente, pero podemos tener concurrencia sin paralelismo**
 
