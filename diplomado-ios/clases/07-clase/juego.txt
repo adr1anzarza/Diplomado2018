@@ -1,0 +1,6 @@
+escudos int = 5
+contador de disparos int = 0
+arma sobre calentada bool = false
+
+disparar 200 veces, cada 200 veces se baja el escudo y se sobrecalienta 
+
