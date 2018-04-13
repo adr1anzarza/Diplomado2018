@@ -34,9 +34,15 @@ Pues depende del estado actual del sistema.
 
 ## Application Sandbox
 
-(Application sandbox)[https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html]
+[Application sandbox](https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html)
 
 Equivalente a memoria virtual. Hace creer que el FileSystem pertenece a cada programa de iOS. Cada programa corre sobre su propio sandbox. No hay forma de que un programa escriba en el SO.
+
+![This is how it works!](https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/Art/about_sandboxing.png)
+
+App Sandbox is an access control technology provided in macOS, enforced at the kernel level. It is designed to contain damage to the system and the user’s data if an app becomes compromised. Apps distributed through the Mac App Store must adopt App Sandbox. Apps signed and distributed outside of the Mac App Store with Developer ID can (and in most cases should) use App Sandbox as well.
+
+
 
 * Documents
 * Library
