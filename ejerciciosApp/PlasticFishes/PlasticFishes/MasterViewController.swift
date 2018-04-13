@@ -26,7 +26,8 @@ class MasterViewController: UITableViewController {
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
         
-        FishService.shared.all(success: <#T##(([Fish]) -> Void)##(([Fish]) -> Void)##([Fish]) -> Void#>)
+        FishService.shared.all(success: )
+        
         
     }
 
