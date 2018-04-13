@@ -38,8 +38,8 @@ Equivalente a memoria virtual. Hace creer que el FileSystem pertenece a cada pro
 
 * Documents
 * Library
-..* Caches
-..* Preferences
+	* Caches
+	* Preferences
 * tmp
 
 
