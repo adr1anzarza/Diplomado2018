@@ -51,6 +51,21 @@ App Sandbox is an access control technology provided in macOS, enforced at the k
 * tmp
 
 
+#### Read/Write Textual Data
+
+String for textual data
+
+```swift
+init(contentsOf url: URL,
+	 encoding enc: String.Encoding) throws
+
+
+func write(to url: URL,
+	atomically useAuxiliaryFile: Bool,
+	encoding enc: String.Encoding) throws
+```
+
+
 
 
 
