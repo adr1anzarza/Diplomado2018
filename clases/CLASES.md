@@ -1,122 +1,40 @@
-#### CLASE 7 (2 de marzo de 2017)
-# LAYOUTS
-https://www.raywenderlich.com/160527/auto-layout-tutorial-ios-11-getting-started
+# Concurrencia
+### Nececidades
 
+* Diseño simple
+* Expresividad
+* Eficiencia de ejecución
+* Facilidad para depuración
+* Escalabilidad y balanceo de cargas
+* Diversidad de hardware
 
-# Closures
+##### Pregunta loca
+Tenemos un programa que puede ser dividido en 8 tareas separadas. Tenemos una máquina con 8 cores. El programa crea 4 threads.
 
+**¿Son pocos o son muchos?**
 
-```swift
-import Foundation
+```
+Pues depende del estado actual del sistema.
 ```
 
+## GCD
 
-### Firma de los closures
+* 512k por thread vs 256 bytes que usa grand central dispatch.
+* Normal queues (multiples threads).
+* Dispatch es FIFO.
+* Serial queues (un solo thread).
+* Dispatch & terminación es FIFO.
+* Encadenamiento.
 
-```swift
-var miClosure: (Int, Int) -> Int
-var miSecondClosure: (Int, Int) -> Int
-var myThirdClosure: (Int, Int) -> Int
-//: ### Definicion de los cloclosures
-miClosure = {(a: Int, b: Int) -> Int in
-    return a + b
-}
-
-miSecondClosure = {(a: Int, b:Int) -> Int in
-    return a * b
-}
-
-myThirdClosure = {(a,b) in
-    return a - b
-}
-```
-
-#### Desreferenciado y void return
+**Todo el paralelismo es concurrente, pero podemos tener concurrencia sin paralelismo**
 
 
-```swift
-var unreferencedClosure = {(a: Int,b: Int) in
-    return a + b
-}
+## Persistance
+#### Clase 13 Abril
 
-var closureSinRetorno = { () -> Void in
-    print("No regresaré nada")
-    }
+### Application Sandbox
 
-
-let resultado = miClosure(3,2)
-```
-##### Incluir los closures al final de la función
-
-```swift
-func ejecutaOperacion(_ closure:(Int, Int) -> Int, a: Int, b: Int){
-    let resultado = closure(a,b)
-    print(resultado)
-}
-```
-#### Closure's Testing
-
-```swift
-ejecutaOperacion(miClosure, a:10, b:20)
-ejecutaOperacion(miSecondClosure, a:5, b:10)
-ejecutaOperacion(myThirdClosure, a:5, b:10)
-let res = unreferencedClosure(1,6)
-let string = closureSinRetorno()
-
-//: #### Closure vs  Func
-var numero = 0
-func incrementa(variable: inout Int){
-    variable += 1
-}
-
-let incrementaV2 = {
-    numero += 1
-}
-
-print(incrementa(variable: &numero))
-print(numero)
-incrementaV2()
-print(numero)
-```
-
-#### Función que regresa un closure
-```swift
-func incrementaClosure() -> () -> Int{
-    var contador = 0
-    let incrementa: () -> Int = {
-        contador += 1
-        return contador
-    }
-    return incrementa
-}
-
-let contador1 = incrementaClosure()
-let contador2 = incrementaClosure()
-
-var letras = ["Z", "CC", "HHH", "OOOO", "IIIIiii"]
-
-letras.sorted()
-print(letras.sorted{
-    $0.count > $1.count
-})
-
-letras.forEach{ (String) in
-    print("\(String)")
-}
-
-let numeros = [2,3,4,5,6,7,8]
-numeros.forEach{
-    print($0)
-}
-
-let filtrados = numeros.filter{
-    return $0 > 5
-}
-
-print("Numeros filtrados: \(filtrados)")
-```
-
-
+Equivalente a memoria virtual. Hace creer que el FileSystem pertenece a cada programa de iOS. Cada programa corre sobre su propio sandbox. No hay forma de que un programa escriba en el SO.
 
 
 
