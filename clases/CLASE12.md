@@ -28,3 +28,19 @@ Pues depende del estado actual del sistema.
 
 **Todo el paralelismo es concurrente, pero podemos tener concurrencia sin paralelismo**
 
+
+## Persistence
+#### Clase 13 Abril
+
+### Application Sandbox
+
+Equivalente a memoria virtual. Hace creer que el FileSystem pertenece a cada programa de iOS. Cada programa corre sobre su propio sandbox. No hay forma de que un programa escriba en el SO.
+
+
+
+
+
+
+
+
+
