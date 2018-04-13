@@ -34,6 +34,8 @@ Pues depende del estado actual del sistema.
 
 ## Application Sandbox
 
+(Application sandbox)[https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html]
+
 Equivalente a memoria virtual. Hace creer que el FileSystem pertenece a cada programa de iOS. Cada programa corre sobre su propio sandbox. No hay forma de que un programa escriba en el SO.
 
 * Documents
