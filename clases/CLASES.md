@@ -66,6 +66,20 @@ func write(to url: URL,
 ```
 
 
+¿Cómo almacenar otro tipo de datos? Estructura: Person
+
+```swift
+protocol NSCoding{
+
+}
+```
+
+## Basic Core Data
+
+[Página mocks](https://www.behance.net/search?content=projects&sort=appreciations&time=week&featured_on_behance=true&search=app)
+
+
+
 
 
 
