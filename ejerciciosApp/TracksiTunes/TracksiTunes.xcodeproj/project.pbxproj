@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81197A432093F82A0020D7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81197A422093F82A0020D7EE /* AppDelegate.swift */; };
+		81197A482093F82A0020D7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81197A462093F82A0020D7EE /* Main.storyboard */; };
+		81197A4A2093F82B0020D7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81197A492093F82B0020D7EE /* Assets.xcassets */; };
+		81197A4D2093F82B0020D7EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81197A4B2093F82B0020D7EE /* LaunchScreen.storyboard */; };
+		81197A582093F82B0020D7EE /* TracksiTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81197A572093F82B0020D7EE /* TracksiTunesTests.swift */; };
+		81197A632093F82B0020D7EE /* TracksiTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81197A622093F82B0020D7EE /* TracksiTunesUITests.swift */; };
+		81197A732093F97E0020D7EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81197A722093F97E0020D7EE /* TableViewController.swift */; };
+		81197A752093F9A50020D7EE /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81197A742093F9A50020D7EE /* Tracks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81197A542093F82B0020D7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81197A372093F82A0020D7EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81197A3E2093F82A0020D7EE;
+			remoteInfo = TracksiTunes;
+		};
+		81197A5F2093F82B0020D7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81197A372093F82A0020D7EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81197A3E2093F82A0020D7EE;
+			remoteInfo = TracksiTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81197A3F2093F82A0020D7EE /* TracksiTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracksiTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81197A422093F82A0020D7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81197A472093F82A0020D7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81197A492093F82B0020D7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81197A4C2093F82B0020D7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81197A4E2093F82B0020D7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81197A532093F82B0020D7EE /* TracksiTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracksiTunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81197A572093F82B0020D7EE /* TracksiTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksiTunesTests.swift; sourceTree = "<group>"; };
+		81197A592093F82B0020D7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81197A5E2093F82B0020D7EE /* TracksiTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracksiTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81197A622093F82B0020D7EE /* TracksiTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksiTunesUITests.swift; sourceTree = "<group>"; };
+		81197A642093F82B0020D7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81197A722093F97E0020D7EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		81197A742093F9A50020D7EE /* Tracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81197A3C2093F82A0020D7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A502093F82B0020D7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A5B2093F82B0020D7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81197A362093F82A0020D7EE = {
+			isa = PBXGroup;
+			children = (
+				81197A412093F82A0020D7EE /* TracksiTunes */,
+				81197A562093F82B0020D7EE /* TracksiTunesTests */,
+				81197A612093F82B0020D7EE /* TracksiTunesUITests */,
+				81197A402093F82A0020D7EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81197A402093F82A0020D7EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81197A3F2093F82A0020D7EE /* TracksiTunes.app */,
+				81197A532093F82B0020D7EE /* TracksiTunesTests.xctest */,
+				81197A5E2093F82B0020D7EE /* TracksiTunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81197A412093F82A0020D7EE /* TracksiTunes */ = {
+			isa = PBXGroup;
+			children = (
+				81197A422093F82A0020D7EE /* AppDelegate.swift */,
+				81197A462093F82A0020D7EE /* Main.storyboard */,
+				81197A492093F82B0020D7EE /* Assets.xcassets */,
+				81197A4B2093F82B0020D7EE /* LaunchScreen.storyboard */,
+				81197A4E2093F82B0020D7EE /* Info.plist */,
+				81197A722093F97E0020D7EE /* TableViewController.swift */,
+				81197A742093F9A50020D7EE /* Tracks.swift */,
+			);
+			path = TracksiTunes;
+			sourceTree = "<group>";
+		};
+		81197A562093F82B0020D7EE /* TracksiTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				81197A572093F82B0020D7EE /* TracksiTunesTests.swift */,
+				81197A592093F82B0020D7EE /* Info.plist */,
+			);
+			path = TracksiTunesTests;
+			sourceTree = "<group>";
+		};
+		81197A612093F82B0020D7EE /* TracksiTunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81197A622093F82B0020D7EE /* TracksiTunesUITests.swift */,
+				81197A642093F82B0020D7EE /* Info.plist */,
+			);
+			path = TracksiTunesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81197A3E2093F82A0020D7EE /* TracksiTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81197A672093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunes" */;
+			buildPhases = (
+				81197A3B2093F82A0020D7EE /* Sources */,
+				81197A3C2093F82A0020D7EE /* Frameworks */,
+				81197A3D2093F82A0020D7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TracksiTunes;
+			productName = TracksiTunes;
+			productReference = 81197A3F2093F82A0020D7EE /* TracksiTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81197A522093F82B0020D7EE /* TracksiTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81197A6A2093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunesTests" */;
+			buildPhases = (
+				81197A4F2093F82B0020D7EE /* Sources */,
+				81197A502093F82B0020D7EE /* Frameworks */,
+				81197A512093F82B0020D7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81197A552093F82B0020D7EE /* PBXTargetDependency */,
+			);
+			name = TracksiTunesTests;
+			productName = TracksiTunesTests;
+			productReference = 81197A532093F82B0020D7EE /* TracksiTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81197A5D2093F82B0020D7EE /* TracksiTunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81197A6D2093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunesUITests" */;
+			buildPhases = (
+				81197A5A2093F82B0020D7EE /* Sources */,
+				81197A5B2093F82B0020D7EE /* Frameworks */,
+				81197A5C2093F82B0020D7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81197A602093F82B0020D7EE /* PBXTargetDependency */,
+			);
+			name = TracksiTunesUITests;
+			productName = TracksiTunesUITests;
+			productReference = 81197A5E2093F82B0020D7EE /* TracksiTunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81197A372093F82A0020D7EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Adrian Rojas Zarza";
+				TargetAttributes = {
+					81197A3E2093F82A0020D7EE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					81197A522093F82B0020D7EE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 81197A3E2093F82A0020D7EE;
+					};
+					81197A5D2093F82B0020D7EE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 81197A3E2093F82A0020D7EE;
+					};
+				};
+			};
+			buildConfigurationList = 81197A3A2093F82A0020D7EE /* Build configuration list for PBXProject "TracksiTunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81197A362093F82A0020D7EE;
+			productRefGroup = 81197A402093F82A0020D7EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81197A3E2093F82A0020D7EE /* TracksiTunes */,
+				81197A522093F82B0020D7EE /* TracksiTunesTests */,
+				81197A5D2093F82B0020D7EE /* TracksiTunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81197A3D2093F82A0020D7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81197A4D2093F82B0020D7EE /* LaunchScreen.storyboard in Resources */,
+				81197A4A2093F82B0020D7EE /* Assets.xcassets in Resources */,
+				81197A482093F82A0020D7EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A512093F82B0020D7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A5C2093F82B0020D7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81197A3B2093F82A0020D7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81197A752093F9A50020D7EE /* Tracks.swift in Sources */,
+				81197A432093F82A0020D7EE /* AppDelegate.swift in Sources */,
+				81197A732093F97E0020D7EE /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A4F2093F82B0020D7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81197A582093F82B0020D7EE /* TracksiTunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81197A5A2093F82B0020D7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81197A632093F82B0020D7EE /* TracksiTunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81197A552093F82B0020D7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81197A3E2093F82A0020D7EE /* TracksiTunes */;
+			targetProxy = 81197A542093F82B0020D7EE /* PBXContainerItemProxy */;
+		};
+		81197A602093F82B0020D7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81197A3E2093F82A0020D7EE /* TracksiTunes */;
+			targetProxy = 81197A5F2093F82B0020D7EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81197A462093F82A0020D7EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81197A472093F82A0020D7EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81197A4B2093F82B0020D7EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81197A4C2093F82B0020D7EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81197A652093F82B0020D7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81197A662093F82B0020D7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81197A682093F82B0020D7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81197A692093F82B0020D7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81197A6B2093F82B0020D7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracksiTunes.app/TracksiTunes";
+			};
+			name = Debug;
+		};
+		81197A6C2093F82B0020D7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracksiTunes.app/TracksiTunes";
+			};
+			name = Release;
+		};
+		81197A6E2093F82B0020D7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TracksiTunes;
+			};
+			name = Debug;
+		};
+		81197A6F2093F82B0020D7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksiTunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.TracksiTunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TracksiTunes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81197A3A2093F82A0020D7EE /* Build configuration list for PBXProject "TracksiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81197A652093F82B0020D7EE /* Debug */,
+				81197A662093F82B0020D7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81197A672093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81197A682093F82B0020D7EE /* Debug */,
+				81197A692093F82B0020D7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81197A6A2093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81197A6B2093F82B0020D7EE /* Debug */,
+				81197A6C2093F82B0020D7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81197A6D2093F82B0020D7EE /* Build configuration list for PBXNativeTarget "TracksiTunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81197A6E2093F82B0020D7EE /* Debug */,
+				81197A6F2093F82B0020D7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81197A372093F82A0020D7EE /* Project object */;
+}
