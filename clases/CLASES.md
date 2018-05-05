@@ -80,6 +80,13 @@ protocol NSCoding{
 
 
 
+# Security (4 de Mayo de 2018)
+
+## What is security?
+
+** you should read THE BOOK CODE... **
+
+Pseudo random numbers.
 
 
 
