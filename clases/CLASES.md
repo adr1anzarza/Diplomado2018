@@ -92,5 +92,18 @@ Pseudo random numbers.
 
 
 
+¿Que te parece?
+Una aplicación en la que contrates a alguien a que te de un TOUR por una región, ya se una universidad, un pueblo mágico, una ciudad, y tu sólamente pones a dónde vas y que te interesa de ese lugar, por ejemplo: Te interese ir a Tlaquepaque, y te interesa la comida de ahí, los lugares céntricos de Tlaquepaque, dónde cómer y qué actividades hay, entonces sacas la aplicación y te contacta co alguién que te ayuda a darte ese tour, y le puedes pagar por tarjeta o en efectivo,
+
+Oh por ejemplo, quieres ir a India, pero no conoces nada de allá, y lo que haces es sacar la aplicación, dices a dónde vas y que te interesa, por ejemplo:
+Lugar: India
+intereses:
+* Transporte
+* Hospedaje
+* Cultura
+* Comida
+* Actividades culinarias
+
+
 
 
