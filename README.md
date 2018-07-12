@@ -1,5 +1,6 @@
 # Diplomado2018
 
+### Rojas Zarza Adrian
 
 En este repo se encuentran las prácticas del diplomado de iOS.
 
