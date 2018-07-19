@@ -16,8 +16,9 @@ En este repo se encuentran las prácticas del diplomado de iOS.
 
 ## Entregables Diplomado iOS
 
-* [Capítulo 6 Vistas programáticas]()
-* [Capítulo 7 Localización]()
+* Todas las tareas [Click aquí]()
+* [Capítulo 6 Vistas programáticas](https://github.com/adr1anzarza/Diplomado2018/tree/master/ejerciciosApp/chapter6ProgrammaticViews)
+* [Capítulo 7 Localización](https://github.com/adr1anzarza/Diplomado2018/tree/master/ejerciciosApp/chapter7Localization)
 * [Capítulo 15 Cámara]()
 * [Capítulo 16 Salvar, cargar estado de una app]()
 * [Ejercicio de seguridad]()
