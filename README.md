@@ -13,3 +13,11 @@ En este repo se encuentran las prácticas del diplomado de iOS.
 
 ### Tareas 2 (9 de marzo de 2018)
 * Ejercicio 3 Libro
+
+## Entregables Diplomado iOS
+
+* [Capítulo 6 Vistas programáticas]()
+* [Capítulo 7 Localización]()
+* [Capítulo 15 Cámara]()
+* [Capítulo 16 Salvar, cargar estado de una app]()
+* [Ejercicio de seguridad]()
