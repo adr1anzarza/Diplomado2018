@@ -1,0 +1,6 @@
+framework module Pods_Colonus {
+  umbrella header "Pods-Colonus-umbrella.h"
+
+  export *
+  module * { export * }
+}
