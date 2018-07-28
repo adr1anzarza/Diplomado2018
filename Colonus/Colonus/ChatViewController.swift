@@ -14,7 +14,7 @@ class ChatViewController: UIViewController, UITableViewDelegate,
 UITableViewDataSource, UITextFieldDelegate{
     
     // Declare instance variables here
-    var messageArray : [Message] = [Message]()
+    var messageArray : [Post] = [Post]()
     
     // We've pre-linked the IBOutlets
     @IBOutlet var heightConstraint: NSLayoutConstraint!
@@ -58,7 +58,7 @@ UITableViewDataSource, UITextFieldDelegate{
         cell.senderUsername.text = messageArray[indexPath.row].sender
         cell.avatarImageView.image = UIImage(named: "forest")
         
-        if cell.senderUsername.text == Auth.auth().currentUser?.email as String! {
+        if cell.senderUsername.text == Auth.auth().currentUser?.email as String? {
             cell.avatarImageView.backgroundColor = UIColor.flatMint()
             cell.messageBackground.backgroundColor = UIColor.flatSkyBlue()
             
@@ -134,7 +134,7 @@ UITableViewDataSource, UITextFieldDelegate{
             let snapshotValue = snapshot.value as! Dictionary<String,String>
             let text = snapshotValue["MessageBody"]!
             let sender = snapshotValue["Sender"]!
-            let message = Message()
+            let message = Post()
             message.messageBody = text
             message.sender = sender
             self.messageArray.append(message)
